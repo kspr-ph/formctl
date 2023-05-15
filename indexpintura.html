@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário | Pintura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="" method="post"> <!--Em Action vai o link da API Sheet Monkey linkado com a planilha de Pintura Industrial-->
+            <fieldset>
+                <legend><b>Fomulário de Inscrição<br>Cetal Treinamentos</b></legend>
+                <div class="form-row">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" placeholder="Nome Completo" required>
+                    <label>Data de Nascimento:</label>
+                    <input type="date" name="data_nasc" placeholder="" required>
+                    
+                </div>
+                <div class="form-row">
+                    <label>E-mail:</label>
+                    <input type="text" name="E-mail" placeholder="exemplo@gmail.com" required>
+                    
+                    <label>RG:</label>
+                    <input type="text" name="RG" placeholder="" required>
+                </div>
+                <div class="form-row">
+                    <label>CPF:</label>
+                    <input type="text" maxlength="15" name="CPF" placeholder="000.000.000-00" required>
+
+                    <label>Endereço:</label>
+                    <input type="text" name="Endereço" placeholder="Endereço completo" required>
+
+                </div>
+                
+                <div class="form-row">
+                    <label>Número:</label>
+                    <input type="number" maxlength="7" name="Numero_casa" placeholder="Ex: 109" required>
+
+                    <label>Complemento:</label>
+                    <input type="text" maxlength="25" name="Complemento_casa" placeholder="000.000.000-00" required>
+
+                </div>
+                
+                <div class="form-row">
+                    <label>Bairro:</label>
+                    <input type="text" maxlength="25" name="Bairro" placeholder="Ex: Alphaville" required>
+
+                    <label>Cidade:</label>
+                    <input type="text" maxlength="50" name="Cidade" placeholder="Ex: Macaé" required>
+
+                </div>
+                <div class="form-row">
+                    <label>Estado:</label>
+                    <input type="text" maxlength="25" name="Estado" placeholder="Ex: Rio de Janeiro" required>
+                    <label>CEP:</label>
+                    <input type="text" maxlength="25" name="CEP" placeholder="Ex: Alphaville" required>
+
+                </div>
+                <div class="form-row">
+                    <label>Celular:</label>
+                    <input type="tel" maxlength="20" name="Celular" placeholder="Ex: (22) 99999-9999" required>
+                    
+                    <label>Profissão:</label>
+                    <input type="text" maxlength="" name="Profissão" placeholder="Ex: Caldereiro" required>
+
+                </div>
+                <div class="form-row">
+                    <label>Idade:</label>
+                    <input type="number" name="Idade" placeholder="Ex: 25" required>
+                    
+                    <label>Nível:</label>
+                    <input type="text" name="Nível" placeholder="Primeiro Registro, N1, N2 ou N3" required>
+
+                </div>
+                <input type="submit" id="submid">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
